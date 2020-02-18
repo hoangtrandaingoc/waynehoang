@@ -1,0 +1,37 @@
+h1{
+	font-size: 6rem;
+	font-family: $font_title;
+}
+
+.text-infor{
+	font-family: $font_text_infor;
+	font-size: 1.2rem;
+	padding-top: 50px;
+	list-style-type: none;
+	padding-left: 3px;
+}
+
+.logo{
+	font-family: $font_title;
+}
+
+header{
+	margin-top: 72px;
+	background: linear-gradient(180deg, $background 50%, #f2fcf2 100%);
+}
+
+@media only screen and (max-width: 768px){
+	header{
+		margin-top: 56px;
+	}
+}
+
+.image{
+	box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 768px){
+	.button-infor{
+		margin-bottom: 40px;
+	}
+}

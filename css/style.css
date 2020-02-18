@@ -1,0 +1,70 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: #f2fcf2; }
+
+section {
+  margin: 20px 0px;
+  background: #b6c6c3; }
+  section .container {
+    padding: 50px; }
+
+.list_skill {
+  background: #f2fcf2; }
+
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 20px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  font-size: 1.2rem; }
+
+.button:hover {
+  background: black;
+  color: white;
+  text-decoration: none; }
+
+.text {
+  font-family: "Rubik", sans-serif;
+  padding: 20px;
+  font-size: 1.2rem;
+  padding-left: 3px; }
+
+.title {
+  font-family: "Sriracha", cursive;
+  font-size: 3rem; }
+
+h1 {
+  font-size: 6rem;
+  font-family: "Sriracha", cursive; }
+
+.text-infor {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 1.2rem;
+  padding-top: 50px;
+  list-style-type: none;
+  padding-left: 3px; }
+
+.logo {
+  font-family: "Sriracha", cursive; }
+
+header {
+  margin-top: 72px;
+  background: linear-gradient(180deg, #b6c6c3 50%, #f2fcf2 100%); }
+
+@media only screen and (max-width: 768px) {
+  header {
+    margin-top: 56px; } }
+
+.image {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2); }
+
+@media only screen and (max-width: 768px) {
+  .button-infor {
+    margin-bottom: 40px; } }
+
+#navbar {
+  background: #b6c6c3; }
