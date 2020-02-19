@@ -8,6 +8,9 @@ section {
   section .container {
     padding: 50px; }
 
+img {
+  width: 100%; }
+
 .list_skill {
   font-family: "Inknut Antiqua", serif;
   background: #f2fcf2;
