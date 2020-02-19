@@ -12,8 +12,21 @@ section{
 }
 
 .list_skill{
+	font-family: $font_skill;
 	background: #f2fcf2;
+	text-align: center;
+	font-size: 3rem;
+	ul{
+		list-style-type: none;
+	}
 }
+
+@media only screen and (max-width: 768px){
+	.list_skill{
+		font-size: 1.5rem;
+	}
+}
+
 .button{
     border: 1px solid black;
     text-decoration: none;
