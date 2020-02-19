@@ -1,0 +1,32 @@
+.list_icon{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	margin: auto;
+	li{
+		padding: 20px;
+		float: left;
+	}
+	i{
+		color: black;
+	}
+}
+
+
+footer h2{
+	color: #1ca88c;
+	text-align: center;
+	font-size: 3rem;
+	padding: 50px 0px;
+}
+
+footer p{
+	// background: $background;
+	text-align: center;
+	padding: 20px 0px;
+	margin-bottom: 0px;
+	font-size: 1.2rem;
+}
+.clear{
+	clear: left;
+}
