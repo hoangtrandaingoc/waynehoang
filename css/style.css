@@ -8,9 +8,6 @@ section {
   section .container {
     padding: 50px; }
 
-img {
-  width: 100%; }
-
 .list_skill {
   font-family: "Inknut Antiqua", serif;
   background: #f2fcf2;
@@ -69,7 +66,8 @@ header {
 
 @media only screen and (max-width: 768px) {
   header {
-    margin-top: 56px; } }
+    margin-top: 56px;
+    text-align: center; } }
 
 .image {
   box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2); }
