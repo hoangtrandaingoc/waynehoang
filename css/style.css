@@ -62,7 +62,7 @@ h1 {
 
 header {
   margin-top: 72px;
-  background: linear-gradient(180deg, #b6c6c3 50%, #f2fcf2 100%); }
+  background: #b6c6c3; }
 
 @media only screen and (max-width: 768px) {
   header {
@@ -92,7 +92,7 @@ header {
 
 footer h2 {
   font-family: "Inknut Antiqua", serif;
-  color: #1ca88c;
+  color: #63a094;
   text-align: center;
   font-size: 2.5rem;
   padding: 50px 0px; }
@@ -102,6 +102,7 @@ footer h2 {
     font-size: 1.3rem; } }
 
 footer p {
+  color: #adb3b1;
   text-align: center;
   padding: 20px 0px;
   margin-bottom: 0px;
