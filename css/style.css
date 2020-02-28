@@ -25,7 +25,7 @@ section {
   text-decoration: none;
   color: black;
   padding: 10px 30px;
-  margin-top: 40px;
+  margin-top: 30px;
   display: inline-block;
   border-radius: 20px;
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -37,7 +37,7 @@ section {
   text-decoration: none; }
 
 .text {
-  font-family: "Rubik", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   padding: 20px;
   font-size: 1.2rem;
   padding-left: 3px; }
