@@ -17,12 +17,16 @@ footer h2{
 	color: #63a094;
 	text-align: center;
 	font-size: 2.5rem;
-	padding: 70px 0px;
+	padding: 50px 0px;
 }
 
 @media only screen and (max-width: 768px){
 	footer h2{
 		font-size: 1.3rem;
+		padding: 20px 0px;
+	}
+	footer p{
+		padding: 10px !important;
 	}
 }
 

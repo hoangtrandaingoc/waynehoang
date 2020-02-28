@@ -20,18 +20,19 @@ section {
   .list_skill {
     font-size: 1.3rem;
     margin-left: -37px; }
-  img {
-    display: inline-block;
-    margin: auto; }
+  img, figcaption {
+    margin-left: 5%; }
   .title {
-    font-size: 2rem !important; } }
+    font-size: 2rem !important; }
+  .text {
+    font-size: 1rem; } }
 
 .button {
   border: 1px solid black;
   text-decoration: none;
   color: black;
   padding: 10px 30px;
-  margin-top: 30px;
+  margin-top: 10px;
   display: inline-block;
   border-radius: 20px;
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -44,7 +45,7 @@ section {
 
 .text {
   font-family: "IBM Plex Mono", monospace;
-  padding: 20px;
+  padding: 10px;
   font-size: 1.2rem;
   padding-left: 3px; }
 
@@ -110,11 +111,14 @@ footer h2 {
   color: #63a094;
   text-align: center;
   font-size: 2.5rem;
-  padding: 70px 0px; }
+  padding: 50px 0px; }
 
 @media only screen and (max-width: 768px) {
   footer h2 {
-    font-size: 1.3rem; } }
+    font-size: 1.3rem;
+    padding: 20px 0px; }
+  footer p {
+    padding: 10px !important; } }
 
 footer p {
   color: #adb3b1;
