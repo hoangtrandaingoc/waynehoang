@@ -30,7 +30,7 @@ ul {
     font-size: 2rem !important; }
   .text {
     font-size: 1rem !important; }
-  .country {
+  #country {
     padding-bottom: 0px !important; } }
 
 .button {
@@ -59,8 +59,8 @@ ul {
   font-family: "Sriracha", cursive;
   font-size: 3rem; }
 
-#project, #hobby {
-  padding-top: 25px; }
+#project, #hobby, #country {
+  padding-top: 22px; }
 
 img {
   width: 90%; }

@@ -41,7 +41,7 @@ ul{
 	.text{
 		font-size: 1rem !important;
 	}
-	.country{
+	#country{
 		padding-bottom: 0px !important;
 	}
 }
@@ -75,8 +75,8 @@ ul{
 	font-size: 3rem;
 }
 
-#project,#hobby{
-	padding-top: 25px;
+#project,#hobby,#country{
+	padding-top: 22px;
 	// background: #fff;
 }
 
