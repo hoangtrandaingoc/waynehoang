@@ -27,14 +27,11 @@ header{
 		margin-top: 56px;
 		text-align: center;
 	}
+	.button-infor{
+		margin-bottom: 40px;
+	}
 }
 
 .image img{
 	box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
-}
-
-@media only screen and (max-width: 768px){
-	.button-infor{
-		margin-bottom: 40px;
-	}
 }
