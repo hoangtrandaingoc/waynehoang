@@ -14,20 +14,24 @@ section {
   text-align: center;
   font-size: 3rem; }
   .list_skill ul {
-    list-style-type: none; }
+    list-style-type: none;
+    line-height: 1.6; }
 
 ul {
   padding-inline-start: 0; }
 
 @media only screen and (max-width: 768px) {
   .list_skill {
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    padding: 5px !important; }
   figcaption:not(.cap_avatar), img:not(.avatar) {
     margin-left: 5%; }
   .title {
     font-size: 2rem !important; }
   .text {
-    font-size: 1rem !important; } }
+    font-size: 1rem !important; }
+  .country {
+    padding-bottom: 0px !important; } }
 
 .button {
   border: 1px solid black;
@@ -55,7 +59,7 @@ ul {
   font-family: "Sriracha", cursive;
   font-size: 3rem; }
 
-#project {
+#project, #hobby {
   padding-top: 25px; }
 
 img {
@@ -89,7 +93,7 @@ header {
     margin-top: 56px;
     text-align: center; }
   .button-infor {
-    margin-bottom: 40px; } }
+    margin-bottom: 30px; } }
 
 .image img {
   box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2); }

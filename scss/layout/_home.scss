@@ -18,6 +18,7 @@ section{
 	font-size: 3rem;
 	ul{
 		list-style-type: none;
+		line-height: 1.6;
 	}
 }
 
@@ -29,6 +30,7 @@ ul{
 @media only screen and (max-width: 768px){
 	.list_skill{
 		font-size: 1.3rem;
+		padding: 5px !important;
 	}
 	figcaption:not(.cap_avatar), img:not(.avatar){
 		margin-left: 5%;
@@ -39,8 +41,8 @@ ul{
 	.text{
 		font-size: 1rem !important;
 	}
-	.button{
-
+	.country{
+		padding-bottom: 0px !important;
 	}
 }
 
@@ -73,7 +75,7 @@ ul{
 	font-size: 3rem;
 }
 
-#project{
+#project,#hobby{
 	padding-top: 25px;
 	// background: #fff;
 }
