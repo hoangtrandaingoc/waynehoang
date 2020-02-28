@@ -18,7 +18,13 @@ section {
 
 @media only screen and (max-width: 768px) {
   .list_skill {
-    font-size: 1.3rem; } }
+    font-size: 1.3rem;
+    margin-left: -37px; }
+  img {
+    display: inline-block;
+    margin: auto; }
+  .title {
+    font-size: 2rem !important; } }
 
 .button {
   border: 1px solid black;
@@ -52,6 +58,10 @@ section {
 img {
   width: 90%; }
 
+figcaption {
+  font-size: 12px;
+  margin-top: 10px; }
+
 h1 {
   font-size: 6rem;
   font-family: "Sriracha", cursive; }
@@ -77,8 +87,7 @@ header {
     text-align: center; } }
 
 .image img {
-  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px; }
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2); }
 
 @media only screen and (max-width: 768px) {
   .button-infor {
@@ -103,7 +112,7 @@ footer h2 {
   color: #63a094;
   text-align: center;
   font-size: 2.5rem;
-  padding: 50px 0px; }
+  padding: 70px 0px; }
 
 @media only screen and (max-width: 768px) {
   footer h2 {
@@ -118,3 +127,6 @@ footer p {
 
 .clear {
   clear: left; }
+
+.icon:hover {
+  color: #63a094 !important; }
