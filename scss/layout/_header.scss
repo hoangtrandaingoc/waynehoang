@@ -20,6 +20,7 @@ header{
 	// background: linear-gradient(180deg, $background 50%, #f2fcf2 100%);
 	background: $background;
 	// color: white;
+	padding-bottom: 50px;
 }
 
 @media only screen and (max-width: 768px){
@@ -29,8 +30,10 @@ header{
 	}
 }
 
-.image{
+.image img{
 	box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
+	margin-bottom: 10px;
+
 }
 
 @media only screen and (max-width: 768px){
