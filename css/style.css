@@ -16,16 +16,18 @@ section {
   .list_skill ul {
     list-style-type: none; }
 
+ul {
+  padding-inline-start: 0; }
+
 @media only screen and (max-width: 768px) {
   .list_skill {
-    font-size: 1.3rem;
-    margin-left: -37px; }
-  img, figcaption {
+    font-size: 1.3rem; }
+  figcaption:not(.cap_avatar), img:not(.avatar) {
     margin-left: 5%; }
   .title {
     font-size: 2rem !important; }
   .text {
-    font-size: 1rem; } }
+    font-size: 1rem !important; } }
 
 .button {
   border: 1px solid black;

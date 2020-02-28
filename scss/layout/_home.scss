@@ -21,22 +21,23 @@ section{
 	}
 }
 
+ul{
+	padding-inline-start: 0;
+
+}
 
 @media only screen and (max-width: 768px){
 	.list_skill{
 		font-size: 1.3rem;
-		margin-left: -37px;
 	}
-	img,figcaption{
-		// display: inline-block;
-		// margin: auto;
+	figcaption:not(.cap_avatar), img:not(.avatar){
 		margin-left: 5%;
 	}
 	.title{
 		font-size: 2rem !important;
 	}
 	.text{
-		font-size: 1rem;
+		font-size: 1rem !important;
 	}
 	.button{
 
