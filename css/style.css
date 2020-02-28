@@ -1,16 +1,17 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background: #f2fcf2; }
+  background: #ffff;
+  color: black; }
 
 section {
   margin: 20px 0px;
-  background: #b6c6c3; }
+  background: #fed700; }
   section .container {
     padding: 50px; }
 
 .list_skill {
   font-family: "Inknut Antiqua", serif;
-  background: #f2fcf2;
+  background: #fff;
   text-align: center;
   font-size: 3rem; }
   .list_skill ul {
@@ -59,8 +60,12 @@ ul {
   font-family: "Sriracha", cursive;
   font-size: 3rem; }
 
-#project, #hobby, #country {
+#project, #hobby {
   padding-top: 22px; }
+
+#country {
+  padding-top: 20px;
+  background: #fff; }
 
 img {
   width: 90%; }
@@ -85,7 +90,7 @@ h1 {
 
 header {
   margin-top: 72px;
-  background: #b6c6c3;
+  background: #fed700;
   padding-bottom: 50px; }
 
 @media only screen and (max-width: 768px) {
@@ -99,7 +104,7 @@ header {
   box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2); }
 
 #navbar {
-  background: #b6c6c3; }
+  background: #fed700; }
 
 .list_icon {
   list-style-type: none;

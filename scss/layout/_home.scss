@@ -1,6 +1,7 @@
 body{
 	font-family: 'Josefin Sans', sans-serif;
-	background: #f2fcf2;
+	background: #ffff;
+	color: rgba(0,0,0,1);
 }
 
 section{
@@ -13,7 +14,7 @@ section{
 
 .list_skill{
 	font-family: $font_skill;
-	background: #f2fcf2;
+	background: #fff;
 	text-align: center;
 	font-size: 3rem;
 	ul{
@@ -75,9 +76,13 @@ ul{
 	font-size: 3rem;
 }
 
-#project,#hobby,#country{
+#project,#hobby{
 	padding-top: 22px;
 	// background: #fff;
+}
+#country{
+	padding-top: 20px;
+	background: #fff;
 }
 
 img{
