@@ -1,10 +1,8 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  color: black;
-  background: #fff; }
+  color: black; }
 
 section {
-  margin: 20px 0px;
   background: #639199; }
   section .container {
     padding: 50px; }
