@@ -120,7 +120,8 @@ header {
 @media only screen and (max-width: 768px) {
   header {
     margin-top: 56px;
-    text-align: center; }
+    text-align: center;
+    font-size: 2rem; }
   .button-infor {
     margin-bottom: 30px; } }
 
