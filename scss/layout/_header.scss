@@ -1,7 +1,8 @@
 h1{
 	font-size: 6rem;
-	font-family: $font_title;
-	color: #D3D4A0;
+	// font-family: $font_title;
+	font-family: $font_skill;
+	color: $background_2;
 }
 
 .text-infor{
@@ -20,7 +21,7 @@ h1{
 header{
 	margin-top: 72px;
 	// background: linear-gradient(180deg, $background 50%, #f2fcf2 100%);
-	background: $background;
+	background: $background_1;
 	padding-bottom: 50px;
 }
 

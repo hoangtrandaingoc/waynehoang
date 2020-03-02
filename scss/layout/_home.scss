@@ -1,13 +1,12 @@
 body{
 	font-family: 'Josefin Sans', sans-serif;
-	// background: #ffff;
-	background: $background_test;
 	color: $background_black;
+	background: $background_2;
 }
 
 section{
 	margin: 20px 0px;
-	background: $background;
+	background: $background_1;
 		.container{
 			padding: 50px;
 		}
@@ -16,9 +15,9 @@ section{
 
 //List skill
 .list_skill{
-	color: #5B8C97;
+	color: $background_1;
 	font-family: $font_skill;
-	background: $background_test;
+	background: $background_2;
 	text-align: center;
 	font-size: 3rem;
 	ul{
@@ -87,15 +86,14 @@ ul{
 	padding-top: 22px;
 	color: #fff;
 	.title{
-	color: #D3D4A0 ;
+	color: $background_2 ;
 	}
 }
 #country{
 	padding-top: 20px;
-	background: $background_test;
-	// color: #A5B89D;
+	background: $background_2;
 	.title{
-		color: #639199;
+		color: $background_1;
 	}
 	figcaption{
 		color: $background_black;
@@ -113,21 +111,21 @@ img{
 figcaption{
 	font-size: 14px;
 	margin-top: 10px;
-	color: #D3D4A0;
+	color: $background_2;
 }
 
 
 .navbar-light .navbar-brand {
-    color: #D3D4A0;
+    color: $background_2;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #D3D4A0;
+	color: $background_2;
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
  .navbar-light .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .nav-link.show,
    .navbar-light .navbar-nav .show>.nav-link {
-    color: #D3D4A0;
+    color: $background_2;
 }

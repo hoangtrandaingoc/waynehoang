@@ -1,3 +1,7 @@
+footer{
+	background: #fff;
+}
+
 .list_icon{
 	list-style-type: none;
 	text-decoration: none;
@@ -14,7 +18,7 @@
 
 footer h2{
 	font-family: $font-skill;
-	color: #5B8C97;
+	color: $background_1;
 	text-align: center;
 	font-size: 2.5rem;
 	padding: 50px 0px;
@@ -42,5 +46,5 @@ footer p{
 }
 
 .icon:hover{
-	color: #5B8C97 !important;
-}
+	color: $background_1 !important;
+}	

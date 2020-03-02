@@ -1,7 +1,7 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background: #D3D4A0;
-  color: black; }
+  color: black;
+  background: #D3D4A0; }
 
 section {
   margin: 20px 0px;
@@ -10,7 +10,7 @@ section {
     padding: 50px; }
 
 .list_skill {
-  color: #5B8C97;
+  color: #639199;
   font-family: "Inknut Antiqua", serif;
   background: #D3D4A0;
   text-align: center;
@@ -98,7 +98,7 @@ figcaption {
 
 h1 {
   font-size: 6rem;
-  font-family: "Sriracha", cursive;
+  font-family: "Inknut Antiqua", serif;
   color: #D3D4A0; }
 
 .text-infor {
@@ -130,6 +130,9 @@ header {
 #navbar {
   background: #639199; }
 
+footer {
+  background: #fff; }
+
 .list_icon {
   list-style-type: none;
   text-decoration: none;
@@ -143,7 +146,7 @@ header {
 
 footer h2 {
   font-family: "Inknut Antiqua", serif;
-  color: #5B8C97;
+  color: #639199;
   text-align: center;
   font-size: 2.5rem;
   padding: 50px 0px; }
@@ -166,4 +169,4 @@ footer p {
   clear: left; }
 
 .icon:hover {
-  color: #5B8C97 !important; }
+  color: #639199 !important; }
