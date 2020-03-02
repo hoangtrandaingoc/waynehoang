@@ -16,10 +16,9 @@ section{
 
 //List skill
 .list_skill{
+	color: #5B8C97;
 	font-family: $font_skill;
-	// background: #fff;
 	background: $background_test;
-	color: #998239;
 	text-align: center;
 	font-size: 3rem;
 	ul{
@@ -55,13 +54,14 @@ ul{
 
 // button
 .button{
-    border: 1px solid black;
+    border: 1px solid #fff;
     text-decoration: none;
-    color: black;
+    color: #fff;
     padding: 10px 30px;
     margin-top: 10px;
     display: inline-block;
-    border-radius: 20px;
+	border-radius: 20px;
+	background: #A5B89D;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
     font-size: 1.2rem;
 
@@ -104,4 +104,20 @@ img{
 figcaption{
 	font-size: 12px;
 	margin-top: 10px;
+}
+
+
+.navbar-light .navbar-brand {
+    color: #D3D4A0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #D3D4A0;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+ .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link.show,
+   .navbar-light .navbar-nav .show>.nav-link {
+    color: #D3D4A0;
 }

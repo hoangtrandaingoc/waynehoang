@@ -1,18 +1,18 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background: #9BBBC8;
+  background: #D3D4A0;
   color: black; }
 
 section {
   margin: 20px 0px;
-  background: #FBD94B; }
+  background: #639199; }
   section .container {
     padding: 50px; }
 
 .list_skill {
+  color: #5B8C97;
   font-family: "Inknut Antiqua", serif;
-  background: #9BBBC8;
-  color: #998239;
+  background: #D3D4A0;
   text-align: center;
   font-size: 3rem; }
   .list_skill ul {
@@ -36,13 +36,14 @@ ul {
     padding-bottom: 0px !important; } }
 
 .button {
-  border: 1px solid black;
+  border: 1px solid #fff;
   text-decoration: none;
-  color: black;
+  color: #fff;
   padding: 10px 30px;
   margin-top: 10px;
   display: inline-block;
   border-radius: 20px;
+  background: #A5B89D;
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
   font-size: 1.2rem; }
 
@@ -66,7 +67,7 @@ ul {
 
 #country {
   padding-top: 20px;
-  background: #9BBBC8; }
+  background: #D3D4A0; }
 
 img {
   width: 90%; }
@@ -75,23 +76,37 @@ figcaption {
   font-size: 12px;
   margin-top: 10px; }
 
+.navbar-light .navbar-brand {
+  color: #D3D4A0; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #D3D4A0; }
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #D3D4A0; }
+
 h1 {
   font-size: 6rem;
-  font-family: "Sriracha", cursive; }
+  font-family: "Sriracha", cursive;
+  color: #D3D4A0; }
 
 .text-infor {
   font-family: "IBM Plex Mono", monospace;
   font-size: 1.2rem;
   padding-top: 50px;
   list-style-type: none;
-  padding-left: 3px; }
+  padding-left: 3px;
+  color: #fff; }
 
 .logo {
   font-family: "Sriracha", cursive; }
 
 header {
   margin-top: 72px;
-  background: #FBD94B;
+  background: #639199;
   padding-bottom: 50px; }
 
 @media only screen and (max-width: 768px) {
@@ -105,7 +120,7 @@ header {
   box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2); }
 
 #navbar {
-  background: #FBD94B; }
+  background: #639199; }
 
 .list_icon {
   list-style-type: none;
