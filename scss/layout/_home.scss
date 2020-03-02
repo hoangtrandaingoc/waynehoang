@@ -85,12 +85,21 @@ ul{
 
 #project,#hobby{
 	padding-top: 22px;
-	// background: #fff;
+	color: #fff;
+	.title{
+	color: #D3D4A0 ;
+	}
 }
 #country{
 	padding-top: 20px;
-	// background: #fff;
 	background: $background_test;
+	// color: #A5B89D;
+	.title{
+		color: #639199;
+	}
+	figcaption{
+		color: $background_black;
+	}
 }
 
 
@@ -102,8 +111,9 @@ img{
 
 
 figcaption{
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 10px;
+	color: #D3D4A0;
 }
 
 
