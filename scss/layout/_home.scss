@@ -1,7 +1,8 @@
 body{
 	font-family: 'Josefin Sans', sans-serif;
-	background: #ffff;
-	color: rgba(0,0,0,1);
+	// background: #ffff;
+	background: $background_test;
+	color: $background_black;
 }
 
 section{
@@ -12,9 +13,13 @@ section{
 		}
 }
 
+
+//List skill
 .list_skill{
 	font-family: $font_skill;
-	background: #fff;
+	// background: #fff;
+	background: $background_test;
+	color: #998239;
 	text-align: center;
 	font-size: 3rem;
 	ul{
@@ -47,6 +52,8 @@ ul{
 	}
 }
 
+
+// button
 .button{
     border: 1px solid black;
     text-decoration: none;
@@ -82,8 +89,12 @@ ul{
 }
 #country{
 	padding-top: 20px;
-	background: #fff;
+	// background: #fff;
+	background: $background_test;
 }
+
+
+//img
 
 img{
 	width: 90%;
