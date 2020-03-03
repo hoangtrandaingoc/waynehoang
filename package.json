@@ -1,5 +1,5 @@
 {
-  "name": "WayneHoang",
+  "name": "waynehoang",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,6 +14,7 @@
     "node-sass": "^4.13.1"
   },
   "dependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "typed.js": "^2.0.11"
   }
 }

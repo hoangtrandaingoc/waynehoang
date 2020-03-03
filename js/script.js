@@ -23,7 +23,7 @@ x.addListener(order);
 
 const skill = document.getElementById("skill");
 let current = true;
-const crt_skill = skill.offsetTop -300;
+const crt_skill = skill.offsetTop -350;
 
 window.addEventListener('scroll',function(){
   if(window.pageYOffset > crt_skill){
