@@ -127,3 +127,18 @@ figcaption{
    .navbar-light .navbar-nav .show>.nav-link {
     color: $background_2;
 }
+
+
+
+.ls_skill{
+	transition: 0.4s;
+  	opacity:0;
+}
+
+.ls_skill.myAnimation{
+	animation: myAnimation 1s ease forwards;
+  }
+  @keyframes myAnimation{
+	from{transform:translatey(300px); opacity:0;}
+	to{transform:translatey(0px); opacity:1;}
+  }

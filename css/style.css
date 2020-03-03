@@ -94,6 +94,21 @@ figcaption {
 .navbar-light .navbar-nav .show > .nav-link {
   color: #D3D4A0; }
 
+.ls_skill {
+  transition: 0.4s;
+  opacity: 0; }
+
+.ls_skill.myAnimation {
+  animation: myAnimation 1s ease forwards; }
+
+@keyframes myAnimation {
+  from {
+    transform: translatey(300px);
+    opacity: 0; }
+  to {
+    transform: translatey(0px);
+    opacity: 1; } }
+
 h1 {
   font-size: 6rem;
   font-family: "Inknut Antiqua", serif;
@@ -159,11 +174,11 @@ footer h2 {
     padding: 10px !important; } }
 
 footer p {
-  color: #adb3b1;
+  color: #fff;
   text-align: center;
-  padding: 20px 0px;
+  padding: 5px 0px;
   margin-bottom: 0px;
-  font-size: 1.2rem; }
+  background: black; }
 
 .clear {
   clear: left; }
