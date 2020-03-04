@@ -98,7 +98,6 @@ ul{
 	}
 }
 
-
 //img
 
 img{
@@ -107,9 +106,11 @@ img{
 
 
 figcaption{
-	font-size: 14px;
+	font-size: 12px;
 	margin-top: 10px;
 	color: $background_2;
+	font-family: $font_text_infor;
+
 }
 
 

@@ -78,9 +78,10 @@ img {
   width: 90%; }
 
 figcaption {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 10px;
-  color: #D3D4A0; }
+  color: #D3D4A0;
+  font-family: "IBM Plex Mono", monospace; }
 
 .navbar-light .navbar-brand {
   color: #D3D4A0; }
