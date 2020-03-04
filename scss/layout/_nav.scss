@@ -1,3 +1,21 @@
 #navbar{
 	background: $background_1;
 }
+
+
+#icon2{
+    display: none;
+}
+
+.hidden_icon1{
+    display: none;
+}
+
+.block_icon2{
+    display: block !important;
+}
+
+
+.navbar-light .navbar-toggler {
+	border: none;
+}
